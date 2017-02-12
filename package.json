@@ -1,0 +1,28 @@
+{
+  "name": "learning_expressjs",
+  "version": "0.0.1",
+  "description": "Ejemplos realizados durante el aprendizaje de ExpressJS",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isortegah/learning_expressjs.git"
+  },
+  "keywords": [
+    "ExpressJS"
+  ],
+  "author": "Ivan Sebastian Ortega Huixtlacatl (ISORTEGAH)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isortegah/learning_expressjs/issues"
+  },
+  "homepage": "https://github.com/isortegah/learning_expressjs#readme",
+  "dependencies": {
+    "express": "^4.14.1",
+    "mocha": "^3.2.0",
+    "should": "^11.2.0",
+    "supertest": "^3.0.0"
+  },
+  "scripts": {
+    "routing": "mocha ./Ejemplos/Router/ --opts ./Ejemplos/Router/mocha.opts"
+  }
+}
